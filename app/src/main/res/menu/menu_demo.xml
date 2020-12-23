@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="New Projet"
+        android:icon="@drawable/addmenu"
+        app:showAsAction="always"
+        android:id="@+id/menuNewProjet"/>
+
+
+    <item android:title="List Projet"
+        android:icon="@drawable/listmenu"
+        app:showAsAction="always"
+        android:id="@+id/menulistProjet"/>
+
+
+    <item android:title="Share"
+        android:icon="@drawable/share"
+        app:showAsAction="always"
+        android:id="@+id/menuSync"/>
+
+</menu>
